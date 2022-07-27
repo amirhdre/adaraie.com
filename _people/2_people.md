@@ -1,11 +1,15 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: Hossein Ghasem Damghani
+description: Maastricht University
+field: Computational Cognitive Neuroscience, Chaos and Complex Networks  
+img: assets/img/ghasem.jpg
+importance: 5
 category: Science
+linkedin_username: hossein-ghasem-damghani
+scholar_userid: RcHB6XwAAAAJ
+research_gate_profile: Hossein-Ghasem-Damghani
+email: hghdamghani@gmail.com
 ---
 
 Every project has a beautiful feature showcase page.

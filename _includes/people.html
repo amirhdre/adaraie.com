@@ -1,0 +1,44 @@
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  {% if project.redirect -%}
+  <a href="{{ people.redirect }}">
+    {%- else -%}
+    <a href="{{ people.url | relative_url }}">
+      {%- endif %}
+      <div class="card hoverable">
+        {%- if people.img %}
+        {%- include figure.html
+          path=people.img
+          alt="people thumbnail" -%}
+        {%- endif %}
+        <div class="card-body">
+          <h6 class="card-title">{{ people.title }}</h6>
+          <p class="card-text">{{ people.description }}</p>
+          <p class="card-field text-lowercase">{{ people.field }}</p>
+          <div class="row ml-1 mr-1 p-0">
+            {%- if people.email -%}
+            <div class="email-icon icon">
+              <a href="mailto:{{ people.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a>
+            </div>
+            {% endif %}
+            {%- if people.linkedin_username -%}
+            <div class="linkdin-icon icon">
+                <a href="https://www.linkedin.com/in/{{ people.linkedin_username }}"><i class="fab fa-linkedin gh-icon"></i></a>
+            </div>
+            {%- endif %}
+            {%- if people.research_gate_profile -%}
+            <div class="researchgate-icon icon">
+              <a href="https://www.researchgate.net/profile/{{people.research_gate_profile}}/" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
+            </div>
+            {% endif %}
+            {%- if people.scholar_userid -%}
+            <div class="scholar-icon icon">
+              <a href="https://scholar.google.com/citations?user={{ people.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </a>
+</div>

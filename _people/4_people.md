@@ -1,11 +1,15 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: Zahra Tabanfar
+description: AmirKabir University of Technology
+img: assets/img/tabanfar.jpg
+importance: 2
 category: Science
+field: Neural Signal Processing
+linkedin_username: zahra-tabanfar-64a52a76
+scholar_userid: 3FQcq7MAAAAJ
+research_gate_profile: Zahra-Tabanfar
+email: zahra.tabanfar@gmail.com
 ---
 
 Every project has a beautiful feature showcase page.

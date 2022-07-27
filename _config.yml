@@ -8,17 +8,14 @@ middle_name:
 last_name: Daraie
 email: daraieamirh@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  Amir Hossein Daraie's personal web page.
+footer_text: 
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://amirhd.github.io # the base hostname & protocol for your site
+url: https://amirhd.com # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -29,14 +26,14 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 800px
@@ -47,7 +44,7 @@ max_width: 800px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
@@ -55,28 +52,29 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: amirhdre # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+twitter_username: neuro_amir # your Twitter handle
+linkedin_username: amirhdre # your LinkedIn user name
+scholar_userid: WYfvxPYAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
+# medium_username: amirhd # your Medium username
+quora_username: Amirhossein-Daraie # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: Amir-Hossein-Daraie # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
-stackoverflow_id: #your stackoverflow id
+stackoverflow_id: 15422469 #your stackoverflow id
+instagram_id: amirhdre 
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to reach me is via email or twitter.
 
-google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
-google_site_verification:  # your google-site-verification ID (Google Search Console)
+google_analytics: G-NXLB69X4W0 # your google-analytics ID (format: UA-XXXXXXXXX)
+google_site_verification:  google58bd251f5c47639c.html # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
@@ -84,8 +82,8 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: Selected Articles    # your blog must have a name for it to show up in the nav bar
+blog_description: A dive deep into my world, composesing a litany of epic stories in science
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -109,6 +107,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  people:
+    output: true
+    permalink: /people/:path/
 
 news_limit: 5
 
@@ -205,8 +206,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Daraie
+  first_name: [Amir Hossein, A. H.]
 
   style: apa
   locale: en
@@ -234,7 +235,7 @@ scholar:
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true
+  enabled: false
   widths:
     - 480
     - 800
@@ -262,9 +263,9 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
-enable_google_verification: false  # enables google site verification
+enable_google_verification: true  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
@@ -274,6 +275,8 @@ enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
+                                   # multiple categories
+enable_people_categories:   true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 

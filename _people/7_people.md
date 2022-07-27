@@ -1,11 +1,15 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: Golnaz Haddad Shargh
+description: University of Pittsburgh
+img: assets/img/golnaz.jpg
+importance: 6
 category: Science
+field: Neural Engineering
+linkedin_username: golnaz-haddad-shargh-aa3a891bb
+scholar_userid: 
+research_gate_profile: 
+email: golnazhaddad@gmail.com
 ---
 
 Every project has a beautiful feature showcase page.

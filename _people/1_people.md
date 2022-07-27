@@ -1,11 +1,15 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: Mahdad Jafarzadeh
+description: Donders Institute
+field: sleep neuroscience, wearables
+img: assets/img/jafarzadeh.jpg
+importance: 1
 category: Science
+linkedin_username: mahdadjafarzadeh
+scholar_userid: YOkAz-8AAAAJ
+research_gate_profile: Mahdad-Jafarzade-Esfahani
+email: mahdad.jafarzadeh@gmail.com
 ---
 
 Every project has a beautiful feature showcase page.

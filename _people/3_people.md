@@ -1,11 +1,15 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Hamid Soltani
+description: Concordia University 
+field: signal Processing, communication 
+img: assets/img/soltani.jpg
 importance: 3
 category: Science
+linkedin_username: hamid-soltani-10a57b147
+scholar_userid: 
+research_gate_profile: 
+email: 
 ---
 
 Every project has a beautiful feature showcase page.

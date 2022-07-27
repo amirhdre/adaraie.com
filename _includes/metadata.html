@@ -129,6 +129,10 @@
         {%- capture link -%}https://stackoverflow.com/users/{{ site.stackoverflow_id }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
+    {%- if site.instagram_id -%}
+        {%- capture link -%}https://instagram.com/{{ site.instagram_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
     {%- if sameaslinks != blank -%}
         {%- assign sameaslinks = sameaslinks | split: "" -%}
     {%- endif -%}

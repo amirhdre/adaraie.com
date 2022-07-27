@@ -1,11 +1,15 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: Nazanin Mohammad Rezaii
+description: Amirkabir University of Technology
+img: assets/img/nazanin.jpg
+importance: 4
 category: Science
+field: cerebellum, deep learning
+linkedin_username: nazanin-mohammadrezaii
+scholar_userid: 
+research_gate_profile: 
+email: nazaninmohammadrezaii79@gmail.com 
 ---
 
 Every project has a beautiful feature showcase page.

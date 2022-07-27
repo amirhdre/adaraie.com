@@ -1,11 +1,15 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: Mohammad Javadi
+description: University of Houston
+img: assets/img/javadi.jpg
+importance: 7
 category: Science
+field: Computer vision, deep learning
+linkedin_username: mohammadjavadi
+scholar_userid: 
+research_gate_profile: 
+email: mohammadjv94@gmail.com
 ---
 
 Every project has a beautiful feature showcase page.

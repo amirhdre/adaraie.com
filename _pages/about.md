@@ -2,25 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: # <a href='#'>The Johns Hopkins University School of Medicine</a>. 733 N Broadway, Baltimore, MD 21205, United States.
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>318 Hackerman Hall</p>
+    <p>Johns Hopkins University</p>
+    <p>3400 North Charles Street</p>
+    <p>Baltimore MD 21218-2686</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-This is some random text, that should change soon.
+I am is a Ph.D. student at the Biomedical Engineering Department at The [Johns Hopkins University School of Medicine](https://www.hopkinsmedicine.org/som/). 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I received my bachelor’s in biomedical engineering and minored in electrical engineering (control) at [Amirkabir University of Technology](https://aut.ac.ir/en), Tehran. I also worked as a research intern at [Donders Centre for Cognitive Neuroimaging](https://www.ru.nl/donders/), Netherlands. At the [Donders Sleep & Memory Lab](https://dreslerlab.org/), under the supervision of Professor Martin Dresler, I developed soft- and hardware solutions for home-based sleep recordings and sleep modulation using single-electrode EEG and deep and machine learning algorithms. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have several years of experience as a software developer and embedded system designer in [international robotics competitions](https://www.robocup.org/) (RoboCup).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+[> `Curriculum vitae`](https://drive.google.com/file/d/1OSbnMx1-8-shr8dq-VPIFDZiPwyTDKil/view)
