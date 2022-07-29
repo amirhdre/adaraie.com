@@ -456,6 +456,75 @@ footer.sticky-bottom {
   }
 }
 
+// Resources
+
+.resources {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .rating {
+    color: rgb(168, 93, 153);
+    font-size: 0.9rem;
+  }
+
+  .card-body {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+
+  .icon {
+    margin-right: 5px;
+  }
+
+  .card-description
+  {
+    font-weight: 400;
+    font-size: .8rem;
+    font-style: italic;
+    color: rgb(99, 123, 124);
+  }
+
+  .card {
+    img {
+      width: 100%;
+    }
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .grid-sizer, .grid-item {
+    width: 146px;
+    margin-bottom: 10px;
+  }
+
+  h2.category {
+    color: var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+}
+
+
 // Publications
 
 .publications {
