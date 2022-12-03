@@ -1,7 +1,0 @@
-- [ ] Update Hamid's profile with information he provided
-- [ ] Write Ben's
-- [ ] Write Maryam's
-- [ ] Write Nazanin's
-- [ ] Write Shahrokh's
-- [ ] Write Amanda's
-- [ ] Write Malka's

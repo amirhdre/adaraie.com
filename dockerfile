@@ -1,8 +1,13 @@
-# Create a Jekyll container from a Ruby Alpline image
-
-FROM ruby:2.7-alpine3.15
-
-RUN apk update
-RUN apk --no-cache build-base gcc cmake git 
-
-RUN gem update bundler && gem install jekyll
+FROM jekyll/jekyll
+Label MAINTAINER Amir Pourmand
+#install imagemagick tool for convert command
+RUN apk add --no-cache --virtual .build-deps \
+        libxml2-dev \
+        shadow \
+        autoconf \
+        g++ \
+        make \
+    && apk add --no-cache imagemagick-dev imagemagick
+WORKDIR /srv/jekyll
+ADD Gemfile /srv/jekyll/
+RUN bundle install
