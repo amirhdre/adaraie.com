@@ -1,0 +1,22 @@
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item" onmouseover="mouseoverBox1(this)" onmouseout="mouseoutBox1(this)">
+  {% if project.redirect -%}
+  <a href="{{ places.redirect }}">
+    {%- else -%}
+    <a href="{{ places.url | relative_url }}">
+      {%- endif %}
+      <div class="card hoverable">
+        {%- if places.img %}
+        {%- include figure.html
+          path=places.img
+          alt="places thumbnail" -%}
+        {%- endif %}
+        <div class="card-body">
+          <h6 class="card-title" id="person_name">{{ places.city }}</h6>
+          <p class="card-text" id="person_institute" hidden>{{ places.country }}</p>
+          <p class="card-field text-lowercase" id="person_field" hidden>{{ places.year }}</p>
+        </div>
+      </div>
+    </a>
+</div>

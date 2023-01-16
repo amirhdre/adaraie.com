@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Amir Hossein Daraie 
     - name: Date of Birth
-      value: 14th March 1879
+      value: 13th September 2000
     - name: Languages
-      value: English, German
+      value: English, Persian, German
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: The Johns Hopkins University School of Medicine, Maryland, USA
+      year: 2028 (Expected)
       description:
         - Description 1.
         - Description 2.
@@ -21,9 +21,15 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: MEng
+      institution: The Johns Hopkins University, Maryland, USA
+      year: 2025 (Expected)
+      description:
+        - Description 1.
+        - Description 2.
+    - title: BSc
+      institution: Amirkabir University of Technology, Tehran, Iran
+      year: 2022
       description:
         - Description 1.
         - Description 2.

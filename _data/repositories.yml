@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - amirhdre
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - dreamento/dreamento
+  - amirhdre/BSc-Thesis
+  - amirhdre/SZ-Prediction
+  - amirhdre/Fourier-transform
+  - amirhdre/pytorch
